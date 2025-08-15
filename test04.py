@@ -5,13 +5,13 @@ print('hello',555,'wow',999,True,'hi',10+20,152.875)
 # วิธีที่ 2 ใช้ + (ข้อมูลไหนที่ไม่ใช่ String ต้องทำให้เป็น String ใช้ฟังก์ชัน str())
 # ไม่มีเว้น 1 space เหมือน ,
 print('hello'+str(555)+'wow'+str(999)+str(True)+'hi'+str(10+20)+str(152.875))
-print('hello '+str(555)+' wow '+str(999)+' '+str(true)+' hi '+str(10+20)+str(152.875))
+print('hello '+str(555)+' wow '+str(999)+' '+str(10+20)+str(152.875))
 
 # วิธีที่ 3 ใช้เมฮอต format() โดยข้อมูลที่อยู่ในรูปแบบของ string
 # (ข้อมูลทัี่ไม่ใช่ string ให้ใส่ใน () ของ format และตำแหน่งที่แทนข้อมูลนั้นให้ใส่ {} แทน)
-print('hello {} wow {} {} Hi {} {}'.format{555,999,true,10+20-5,152.875})
+print('hello {} Wow {} {} Hi {} {}'.format(555,999,True,10+20-5,152.875))
 
-# index number
+# index number          0   1   2   3   4
 print('{2} {4}'.format('a','b','c','d','e'))
 
 # วิธีที่ 4 ใช้ f-string โดยข้อมูลแสดงอยู่ในรูปแบบของ string โดยมี f อยู่ข้างหน้า
